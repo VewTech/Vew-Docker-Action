@@ -15,9 +15,6 @@ inputs:
     description: The tag that will be applied to the image, as well as 'latest'
     required: false
     default: default
-  push:
-    description: Whether the image will be pushed to the registry or not
-    required: true
   registry:
     description: The registry where the image will be uploaded.
     required: false
